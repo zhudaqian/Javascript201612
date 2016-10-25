@@ -1,0 +1,48 @@
+1.验证git是否安装成功：git --version   它可以打印出你的git版本
+2.git配置--配置git用户名和邮箱：
+  	git config --global user.name "你的github用户名"
+  	git config --global user.email "你的github邮箱"
+3.创建本地仓库，共三步：
+    1）创建一个本地的文件夹
+    2）打开命令窗口：
+        1.git bash打开：鼠标右键，从右键的菜单中选择git bash
+        2.通过命令行窗口打开：左手按住shift,同时右手点击鼠标右键，选择在此处打开命令窗口
+    3）git init命令，按回车键即可；
+4.把本地仓库的内容推送到远程仓库：
+    1）创建自己的远程仓库：
+        1）点击右上角的+号，选择new repository 创建一个远程仓库
+        2）写上你仓库的名称
+        3）选择create repository
+    2）连接远程仓库：
+        git remote add origin https://github.com/leilei1238/2344.git（远程通道地址）
+        git remote -v 可以查看你连接了哪些远程通道？
+    3）工作流：
+        1.git add .
+        2.git commit -m"这些写注释的内容"
+        3.git push origin master
+    注意：自己本地仓库中，一定要有内容；
+5.把本地文件夹中的内容，提交到远程仓库
+    1）创建本地仓库：创建本地文件夹，并给里面创建内容，通过git init把他初始化为一个git可以管理的仓库
+    2）创建远程仓库：
+        1）点击右上角的+号，选择new repository 创建一个远程仓库
+        2）写上你仓库的名称
+        3）选择create repository
+        4)链接远程仓库：git remote add origin 远程通道的地址；
+            查看是否链接上远程仓库：git remote -v
+            删除远程仓库的链接：git remote rm origin
+    3）工作流：
+        1）git add .
+        2)git commit -m"注释"
+        3）git push origin master
+    
+
+
+
+
+
+
+
+
+
+
+
