@@ -50,6 +50,16 @@
     1）等待老师把讲义更新后；
     2）git remote update teacher(学生链接的老师远程通道的名称)
     3）git pull teacher master
+9.组长提交作业：
+    1）在同学文件夹下，放入自己组员的作业
+    2）把自己本地的文件，上传到自己的远程:
+        git add .
+        git commit -m"new"
+        git push origin master
+    3）pull request请求：请求跟老师远程合并；
+        1.new pull request
+        2.create pull request
+
 
 
 
