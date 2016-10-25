@@ -34,7 +34,9 @@
         1）git add .
         2)git commit -m"注释"
         3）git push origin master
-    
+    7.常用命令
+    1）ls (dir):打印出来当前文件夹下有哪些文件  ；
+    2）输入想要进去的文件夹名字的一部分+tab键，就可以进入该文件夹
 
 
 
